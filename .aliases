@@ -1,0 +1,16 @@
+# Easier navigation: .., ..., ~ and -
+alias ..="cd .."
+alias cd..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# My popular directories
+
+alias sites="cd/Documents/Sites/"
+
+# Seed specifc navigation shortcuts
+alias lara="cd ~/Documents/Sites/seed/Larahub"
+

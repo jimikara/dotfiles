@@ -1,0 +1,32 @@
+[core]
+        editor = vim
+        autocrl = input
+        fileMode = true
+[user]
+        name = Jimmy Saul
+        email = jamesstephensaul@gmail.com
+[filter "lfs"]
+        clean = git-lfs clean %f
+        smudge = git-lfs smudge %f
+        required = true
+[push]
+        default = simple
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  a = add --all
+  ai = add -i
+  ps = push
+        ci-last = show --name-status
+        br-date = branch --sort=-committerdate
+        s = status
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[color]
+        ui = true
+[format]
+        pretty = oneline
