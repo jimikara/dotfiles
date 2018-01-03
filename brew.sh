@@ -24,6 +24,8 @@ brew install tree
 
 # Install other useful binaries
 brew install node # This installs `npm` too using the recommended installation method
+brew install yarn
+brew install mysql
 
 brew install zsh
 
