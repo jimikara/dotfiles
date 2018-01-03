@@ -16,7 +16,7 @@ brew cask install sublime-text
 brew cask install sequel-pro
 
 # browsers
-brew cask install chrome
+brew cask install google-chrome
 brew cask install firefox
 # brew cask install google-chrome-canary
 # brew cask install firefoxnightly
