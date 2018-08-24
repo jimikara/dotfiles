@@ -9,8 +9,7 @@ alias -- -="cd -"
 
 # My popular directories
 
-alias sites="cd/Documents/Sites/"
+alias sites="cd/Documents/sites/"
 
 # Seed specifc navigation shortcuts
-alias lara="cd ~/Documents/Sites/seed/Larahub"
-
+alias lara="cd ~/Documents/sites/seed/Larahub"
