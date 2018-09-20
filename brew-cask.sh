@@ -14,9 +14,10 @@ brew cask install slack
 brew cask install iterm2
 brew cask install sublime-text
 brew cask install sequel-pro
+# brew cask install xcode
 
 # browsers
-brew cask install chrome
+brew cask install google-chrome
 brew cask install firefox
 # brew cask install google-chrome-canary
 # brew cask install firefoxnightly
